@@ -1,0 +1,32 @@
+This code book documents the tidy data set produced for the
+project in the Coursera course Getting and Cleaning Data 
+offered by Jeff Leek, Roger D. Peng, and Brian Caffo offered
+Johns Hopkins University.
+
+This codebook created by David Herold.
+The data set produced in file myTidyMotionData.txt
+written from R by the function:
+write.table(motiondf, file="myTidyMotionData.txt", row.names=FALSE)
+
+VariableName				Type		Contents
+activity					Integer		Activity Factor, one of WALKING, WALKING_UPSTAIRS, 
+										WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+subject						Integer		One of the test subjects in the range 1-30
+Body Acceleration Mean X	Numeric		Mean Body Acceleration in X direction (units of g)
+Body Acceleration Mean Y	Numeric		Mean Body Acceleration in Y direction (units of g)
+Body Acceleration Mean Z	Numeric		Mean Body Acceleration in Z direction (units of g)
+Body Acceleration Std X		Numeric		Standard Deviation of Body Acceleration in X direction (units of g)
+Body Acceleration Std Y		Numeric		Standard Deviation of Body Acceleration in Y direction (units of g)
+Body Acceleration Std Z		Numeric		Standard Deviation of Body Acceleration in Z direction (units of g)
+Body Gyro Mean X			Numeric		Mean Gyro Rate in X direction (units radians/second)
+Body Gyro Mean Y			Numeric		Mean Gyro Rate in Y direction (units radians/second)
+Body Gyro Mean Z			Numeric		Mean Gyro Rate in Z direction (units radians/second)
+Body Gyro Std X				Numeric		Standard Deviation of Gyro Rate in X direction (units radians/second)
+Body Gyro Std Y				Numeric		Standard Deviation of Gyro Rate in Y direction (units radians/second)
+Body Gyro Std Z				Numeric		Standard Deviation of Gyro Rate in Z direction (units radians/second)
+Free Body Acc Mean X		Numeric		Mean Free Body Acceleration in X direction (units of g)
+Free Body Acc Mean Y		Numeric		Mean Free Body Acceleration in Y direction (units of g)
+Free Body Acc Mean Z		Numeric		Mean Free Body Acceleration in Z direction (units of g)
+Free Body Acc Std X			Numeric		Standard Deviation of Free Body Acceleration in X direction (units of g)
+Free Body Acc Std Y			Numeric		Standard Deviation of Free Body Acceleration in Y direction (units of g)
+Free Body Acc Std Z			Numeric		Standard Deviation of Free Body Acceleration in Z direction (units of g)
